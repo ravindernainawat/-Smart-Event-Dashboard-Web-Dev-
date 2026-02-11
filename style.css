@@ -1,0 +1,149 @@
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #19c6d1, #1a8fb5);
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background: linear-gradient(135deg, #044a52, #0692f7);
+    padding: 15px 25px;
+    border-radius: 12px;
+    width: fit-content;
+    margin: 0 auto 40px auto;
+}
+
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+#containor-q{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:10px;
+
+}
+
+
+#container-A,
+#container-B {
+    background: white;
+    width: 380px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #09425b;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #010d47;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #c61b81;
+}
+
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#clear-btn,
+#add-sample-btn {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#clear-btn {
+    background: #850ccb;
+}
+
+#add-sample-btn {
+    background: #601bc8;
+}
+
+
+#event-container {
+    background: #f3f6f9;
+    border-radius: 12px;
+    padding: 15px;
+    min-height: 140px;
+}
+
+#event-container div {
+    background: white;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 15px;
+    position: relative;
+}
+
+#event-container span {
+    display: inline-block;
+    background: #e6f7fa;
+    color: #1bb1c8;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 12px;
+    margin-right: 8px;
+}
+
+#event-container button {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: none;
+    background: #ff6b6b;
+    color: white;
+    cursor: pointer;
+}
+
+#keyDisplay {
+    margin-top: 30px;
+    padding: 15px;
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+}
